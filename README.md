@@ -25,7 +25,7 @@ It leverages **Topological Sorting (Kahn’s Algorithm)** to resolve dependencie
   - Suitable for systems where workflows evolve over time.
 
 - **High Efficiency:**  
-  - Overall complexity: **O((V + E) log V)**  
+  - Overall complexity: **O(E + V log V)**  
   - Scales smoothly for large task graphs.
 
 ---
